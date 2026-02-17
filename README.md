@@ -77,7 +77,6 @@ Instead of relying on Supabase Realtime (WebSockets), this app uses a lighter, m
 
 **Solution:** Removed the Supabase Realtime dependency and added explicit duplicate checks before updating local state.
 
----
 
 ### 2. Realtime WebSocket Instability
 
@@ -85,7 +84,6 @@ Instead of relying on Supabase Realtime (WebSockets), this app uses a lighter, m
 
 **Solution:** Replaced Supabase Realtime entirely with a `localStorage`-based cross-tab sync strategy combined with focus/visibility event fallbacks.
 
----
 
 ### 3. Authentication State Not Syncing Across Tabs
 
