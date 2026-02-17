@@ -10,11 +10,11 @@ Users can securely log in, add bookmarks, delete them, and see instant updates a
 
 > **Login Page**
 
-![Login Page Screenshot](screenshots/login.png)
+![Login Page Screenshot](public/auth.png)
 
 > **Dashboard / Bookmarks View**
 
-![Dashboard Screenshot](screenshots/dashboard.png)
+![Dashboard Screenshot](public/dashboard.png)
 
 ---
 
@@ -22,7 +22,7 @@ Users can securely log in, add bookmarks, delete them, and see instant updates a
 
 -  Google OAuth Authentication
 -  Secure Row-Level Security (RLS) via Supabase
--  Create & ❌ Delete Bookmarks
+-  Create &  Delete Bookmarks
 -  Optimistic UI Updates
 -  Cross-Tab Instant Sync
 -  Protected Routes
@@ -100,7 +100,7 @@ Instead of relying on Supabase Realtime (WebSockets), this app uses a lighter, m
 **1. Clone the repository:**
 
 ```bash
-git clone https://github.com/your-username/bookmark-manager
+git clone https://github.com/Al0kKumar/bookmark.git
 cd bookmark-manager
 ```
 
